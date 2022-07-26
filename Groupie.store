@@ -1,0 +1,60 @@
+@media (min-width: 990px){
+    .header{
+    display:flex;
+      justify-content:space-evenly;
+      margin-left: 0px;
+      min-width: 100%;
+      
+}
+
+.header .header__inline-menu{
+    display: flex;
+  min-width: 30%;
+}
+
+.header > *:nth-child(2) img{
+  max-width: 15%;
+  margin: 0 auto;
+ justify-content: center;
+    min-width: 5%;
+  display: inline-flex;
+}
+
+.header__heading-link{
+    display:flex;
+    margin: 0 auto;
+
+}
+
+
+
+.header > *:nth-child(4){
+    order: 3;
+
+}
+
+header-drawer{
+    display: flex;
+}
+
+
+    
+/* logo */
+.header > *:nth-child(2){
+    order: 2;
+    width: 100%;
+    position: relative;
+
+    
+    left: 0px;
+}
+
+}
+@media(min-width:990px){
+body .header{
+padding-top: 2rem;
+padding-bottom: 2rem;
+}
+}
+.list-menu__item {
+    font-size: 10px;
